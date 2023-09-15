@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+/*
+	井宮研究室 Web ページ 共通スタイル
+	基本レイアウト, デフォルトの見栄え
+*/
+/*
+@import "debug.css";
+*/
+/**************************************/
+/* 基本レイアウト */
+/**************************************/
+
+body {
+	/* 体裁 */
+	margin: 0;
+	padding: 0;
+}
+
+#Header {
+	/* 体裁 */
+	margin: 0;
+	padding: 0 0 0 25%;
+}
+#Footer {
+	/* 体裁 */
+	margin: 0;
+	padding: 0.5em;
+
+	clear: both;
+}
+#Main {
+	/* メニュー領域を空ける */
+	margin: 0;
+	padding: 0;
+	margin-left: 25%;
+}
+#Sidebar {
+	/* 左に浮動させる */
+/*
+	float: left;
+*/
+	position: absolute;
+	left: 0;
+
+	/* 幅は全体の 25% */
+	width: 25%;
+
+	/* 体裁 */
+	margin: 0;
+	padding: 0;
+}
+
+/**************************************/
+/* 要素のデフォルトデザイン */
+/**************************************/
+
+/* 背景画像 
+body {
+	color: black;
+	background: white url("nii2.jpg") left top no-repeat fixed;
+}
+*/
+
+/* アクセシビリティ */
+hr {
+	display: none;
+}
+
+/* 表 */
+table, caption { /* センタリング */
+	margin-left: auto; margin-right: auto;
+}
+
+table { /* 上下に区切り線 */
+	border-top: 3px solid blue;
+	border-bottom: 3px solid blue;
+}
+caption {
+	font-size: x-small;
+	font-family: sans-serif;
+	text-align: right;
+}
+th { /* emphasize title sells */
+	border: 1px solid #00f;
+	background-color: #ccf;
+	font-weight: bold;
+	color: black;
+}
+
+/* 見出し */
+h1 {
+	padding: 1em;
+	margin: 0;
+	border: 2px outset gray;
+}
+
+h2 {
+	font-size: x-large;
+	font-family: sans-serif;
+	border: 2px solid #999;
+	background-color: #ccc;
+	background-image: url("slit.png");
+	margin: 0;
+	padding: 1em;
+}
+
+h3 {
+	border-bottom: double 3px #333;
+	color: #333;
+}
+
+
+h2, h3, h4 {
+	clear: both;
+}
+
+address {
+	text-align: right;
+	overflow: auto;
+	font-style: normal;
+	clear: both;
+}
+
+p {
+	text-indent: 1em;
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+
+/* レイアウトブロックのデザイン */
+
+#Header {
+}
+
+#Footer {
+	font-size: x-small;
+	background-color: #eee;
+	background-image: url("tile.png");
+	border: 1px dashed black;
+}
+
+#Main {
+}
+
+#Sidebar {
+	/* 文字のサイズは小さいのがデフォルト */
+	font-size: small;
+
+	/* 色 */
+	color: black;
+	background-color: #cdc;
+	/*-moz-opacity: .8;*/
+}
+
+#Sidebar * {
+	margin: .5em;
+}
+
+#Sidebar h2 {
+	font-size: larger;
+	border: 2px outset #0f0;
+	background: #efe;
+	padding: .5em;
+/*	-moz-border-radius: .5em;*/
+	font-variant: small-caps;
+	font-family: sans-serif;
+}
+
+#Sidebar ul {
+	padding: .5em;
+	margin: 0;
+}
+
+
+#Sidebar ul li {
+	margin: 0em;
+	padding: 0em;
+	list-style-type: none;
+	border: 1px solid;
+	border-color: #cdc;
+}
+
+#Sidebar ul li a {
+	display: block;
+	padding: .5em;
+	margin: 0;
+	vertical-align: middle;
+	text-decoration: none;
+/*
+	background-color: #cfc;
+*/
+}
+
+#Sidebar ul li:hover {
+	background-color: #bdb;
+	border-color: #060;
+}
+
+#Sidebar ul li a:hover {
+	background-color: #bdb;
+}
+
+/* 文書構造 */
+.section {
+	margin: 1em;
+	padding: 1em;
+	border: 1px solid #999;
+	background-color: #eee;
+	border-radius: 1em;
+	-moz-border-radius: 1em;
+}
+
+.section h2
+{
+	padding: .5em;
+	border-radius: .5em;
+	-moz-border-radius: .5em;
+}
+
+.section .section {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+dl.graduates dt {
+	border: 1px outset;
+	width: 100%;
+}
+

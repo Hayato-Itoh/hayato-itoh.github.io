@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* common style sheet */
+
+@import "common.css";
+
+#Header {
+	background-color: transparent;
+}
+
+
+h1 {
+	text-align: right;
+	vertical-align: middle;
+	/* height: 320px; */
+	font-variant: small-caps;
+}
+
+#Sub {
+	font-size: small;
+	vertical-align: text-top;
+}
+
+ul#Course {
+	font-family: sans-serif;
+	border: 1px Blue solid;
+	background-color: #ddf;
+	font-size: 75%;
+	padding: 0.5em;
+	list-style-position: inside;
+}
+
