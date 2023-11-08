@@ -33,7 +33,7 @@
    background: #ADD8E6;
    margin: 7px 50px 0px 50px;
    width:1300px;
-   height: 355px;
+   height: 360px;
    text-align: left;
    color: #A52A2A;
    font-weight: bold;
@@ -232,7 +232,7 @@ div.IntroText{
   font-weight: bold ;
   font-size: 80%;
   text-align: leftr;
-  margin: 0px 270px 0px 4px;
+  margin: 5px 270px 0px 4px;
 }
 
 div.LinkBox{
