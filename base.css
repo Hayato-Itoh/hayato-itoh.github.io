@@ -10,7 +10,7 @@
 }
 
 #whole-wrapper {
-   width: 1366px;
+   width: 1400px;
    margin:0 
    auto;
    text-align: left;
@@ -32,7 +32,7 @@
    border: solid 1px #DCDCDC;
    background: #ADD8E6;
    margin: 7px 50px 0px 50px;
-   width:1266px;
+   width:1300px;
    height: 355px;
    text-align: left;
    color: #A52A2A;
@@ -44,7 +44,7 @@
    border: solid 1px #DCDCDC;
    background: #f0f8ff;
    margin: 7px 50px 0px 50px;
-   width:1266px;
+   width:1300px;
    float: left;
 }
 
