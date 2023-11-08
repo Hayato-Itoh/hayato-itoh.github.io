@@ -239,7 +239,7 @@ div.LinkBox{
   font-weight: bold ;
   font-size: 80%;
   text-align: leftr;
-  margin: 7px 0px 0px 4px;
+  margin: 8px 0px 0px 4px;
 }
 
 div.UpdateSign{
@@ -288,7 +288,13 @@ h4 { font-family: Arial; color: #f0f8ff; backgound-color: #778899; font-size: 15
    line-height: 1.4em;
 }
 
-
+h5 { 
+   margin:5px 0px 5px 313px;
+   font-family: Arial;
+   width:280px;
+   color: #A52A2A;
+   text-align: left;
+}
 
 .testbox1 {
    margin: 20px;

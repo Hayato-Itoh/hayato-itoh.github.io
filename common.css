@@ -115,6 +115,11 @@ h2, h3, h4 {
 	clear: both;
 }
 
+
+h5 {
+	border-bottom: dashed 2px #A52A2A;
+}
+
 address {
 	text-align: right;
 	overflow: auto;
