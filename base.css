@@ -162,7 +162,13 @@ div.RTopics7 {
 div.RTopics8 {
    text-align: left;
    margin: 10px 2px 20px 10px;
-   height: 190px;
+   height: 220px;
+}
+
+div.RTopics9 {
+   text-align: left;
+   margin: 10px 2px 20px 10px;
+   height: 230px;
 }
 
 div.RTopicsText {
